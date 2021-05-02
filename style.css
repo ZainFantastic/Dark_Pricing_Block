@@ -103,3 +103,19 @@ body{
   transform: scale(1.065);
   box-shadow: 0 0 15px rgba(0,0,0,0.35);
 }
+
+/* for mobile screens with max width 576px */
+@media all and (max-width:576px){
+  .pricing-block .plan:hover{
+    transform: none;
+    box-shadow: none;
+  }
+  .pricing-block .premium.plan:hover{
+    transform: scale(1.035);
+    box-shadow: 0 0 15px rgba(0,0,0,0.35);
+  }
+  .pricing-block .premium.plan{
+    transform: scale(1.035);
+    box-shadow: 0 0 15px rgba(0,0,0,0.35);
+  }
+}
